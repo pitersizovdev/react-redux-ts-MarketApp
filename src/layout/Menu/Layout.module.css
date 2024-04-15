@@ -1,0 +1,47 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+
+  padding: 30px;
+  border-right: 1px solid var(--seporator-color);
+}
+.user {
+  margin-bottom: 48px;
+}
+.user img {
+  width: 120px;
+  margin-left: -10px;
+}
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+.email {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-secondary-color);
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.menu img {
+  width: 32px;
+  color: #d4d6e0;
+}
+.exit {
+  margin-top: auto;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: var(--text-color);
+}
