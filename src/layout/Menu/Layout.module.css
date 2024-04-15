@@ -48,3 +48,7 @@
 .active {
   color: var(--primary-color);
 }
+.content {
+  padding: 40px 60px;
+  width: 100vw;
+}

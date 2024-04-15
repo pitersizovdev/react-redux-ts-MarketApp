@@ -35,7 +35,7 @@ const Layout = () => {
 
         <Button className={styles["exit"]}>Logout</Button>
       </div>
-      <div>
+      <div className={styles.content}>
         <Outlet />
       </div>
     </div>
