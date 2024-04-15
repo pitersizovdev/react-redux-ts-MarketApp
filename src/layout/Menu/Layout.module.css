@@ -14,7 +14,7 @@
 }
 .user img {
   width: 120px;
-  margin-left: -10px;
+  margin-left: -12px;
 }
 .name {
   font-size: 20px;
@@ -44,4 +44,7 @@
   gap: 14px;
   text-decoration: none;
   color: var(--text-color);
+}
+.active {
+  color: var(--primary-color);
 }
